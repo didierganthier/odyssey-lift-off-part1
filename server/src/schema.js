@@ -9,7 +9,13 @@ const typeDefs = gql`
         thumbnail: String
         length: Int
         modulesCount: Int
-    }    
+    }
+    "Author of a complete Track or a Module"
+    type Author {
+        id: ID!
+        name: String!
+        photo: String
+    }        
 `;
 
 module.exports = typeDefs;
