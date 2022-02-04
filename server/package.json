@@ -8,11 +8,12 @@
   },
   "dependencies": {
     "apollo-server": "^3.6.2",
+    "appollo": "^0.1.13",
     "graphql": "^16.3.0"
   },
   "devDependencies": {
     "dotenv": "^8.2.0",
-    "nodemon": "^2.0.4"
+    "nodemon": "^2.0.15"
   },
   "author": "Raphael Terrier @R4ph-t",
   "license": "MIT",
